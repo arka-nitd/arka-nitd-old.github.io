@@ -1,0 +1,67 @@
+html, body {background-color: #1A1A1A; color:#FFFFFF; text-shadow:2px 2px 4px rgba(0, 0, 0, 0.49);}
+.card{background-color:#C0392B; border-radius: 13px !important;}
+
+#loading .text-holder{width:100%;position:absolute;color:#fff;top:82%;}
+#loading .text-holder h2{padding:0;margin:0;text-shadow:3px 3px 4px rgba(0, 0, 0, 0.4);}
+#loading .text-holder h6{font-size:16px;padding:0;margin:0;text-shadow:2px 2px 4px rgba(0, 0, 0, 0.29);}
+#loading #loading-center-absolute{left:47%;width:320px;}
+#loading .box-holder .load-box { width:30px;height:50px;}
+
+
+#home .menu{background:#1A1A1A; }
+#home .menu .logo-flat{height:250px;margin-top:-14px;background:#4B0802;}
+#home .menu .menu-wrap{background:#1A1A1A; border-right: 0.1px solid #fff;}
+#home .menu a{color:#fff;}
+#home .menu a:hover{background-color:#4B0802; color:#ADDF40; }
+#home .menu a:active{background-color:#4B0802; color:#ADDF40; }
+
+#home #menuToggle .toggle-normal i{color:#F10706;}
+#home #menuToggle {border:2px solid #520201; border-radius: 5px; background: black;}
+
+#v-card-holder #v-card{background:#4B0802; border-radius: 13px !important; width: 90%; margin: 0 auto 0 auto;}
+#v-card-holder #v-card .card-content { height: inherit;  }
+#v-card-holder #v-card #profile .slant { border-color: rgba(223, 50, 50, 0) transparent transparent #4B0802; }
+
+
+#about .about-btn .btn{background:#4B0802;color:#fff;}
+#about .about-btn .btn:hover{background:#944622;}
+
+#timeline-education:before{background:#F4B46D; opacity: 0.7;}
+#timeline-experience:before{background:#F4B46D; opacity: 0.7;}
+
+.timeline-block .timeline-dot{background:#F4B46D; color: #4B0802;}
+.timeline-block .timeline-dot .medium{color:#4B0802; line-height: 50px;}
+.timeline-block .timeline-content{background:#4B0802; border-left: 4px solid #ADDF40;}
+.timeline-block .timeline-content::before{opacity:0.7;background:#F4B46D;}
+.section-title .text-uppercase {color: #ADDF40;}
+
+#skills .card{background-color: #C0392B;}
+#skills .card .skillbar{background:#4B0802;height:8px;}
+#skills .card .skillbar .skillbar-bar{height:8px;width:0;background:#F7F0DD;}
+
+#portfolios #portfolios-card .tab-content .grid figure figcaption{color:#F7F0DD; text-shadow: none;}
+
+#interest .card .box .interest-icon{background:#F4B46D;}
+#interest .card .box .interest-icon-even{background:#4B0802; }
+
+#contact .card{background-color: #4B0802; }
+#contact .card .card-content .btn{background:#C0392B;}
+#contact .card .card-content .btn:hover{background:#944622;}
+
+#contact label { color: cornsilk; }
+
+#contact input:not([type]):focus:not([readonly]) + label, 
+#contact input[type=text]:focus:not([readonly]) + label, 
+#contact input[type=password]:focus:not([readonly]) + label, 
+#contact input[type=email]:focus:not([readonly]) + label, 
+#contact input[type=url]:focus:not([readonly]) + label, 
+#contact input[type=time]:focus:not([readonly]) + label, 
+#contact input[type=date]:focus:not([readonly]) + label, 
+#contact input[type=datetime-local]:focus:not([readonly]) + label, 
+#contact input[type=tel]:focus:not([readonly]) + label, 
+#contact input[type=number]:focus:not([readonly]) + label, 
+#contact input[type=search]:focus:not([readonly]) + label, 
+#contact textarea.materialize-textarea:focus:not([readonly]) + label{color:#C0392B;}
+#contact input:not([type]):focus:not([readonly]), #contact input[type=text]:focus:not([readonly]), #contact input[type=password]:focus:not([readonly]), #contact input[type=email]:focus:not([readonly]), #contact input[type=url]:focus:not([readonly]), #contact input[type=time]:focus:not([readonly]), #contact input[type=date]:focus:not([readonly]), #contact input[type=datetime-local]:focus:not([readonly]), #contact input[type=tel]:focus:not([readonly]), #contact input[type=number]:focus:not([readonly]), #contact input[type=search]:focus:not([readonly]), #contact textarea.materialize-textarea:focus:not([readonly]){border-bottom:1px solid #C0392B;box-shadow:0 1px 0 0 #C0392B;}
+#contact input:not([type="submit"]), textarea { color: #C0392B; }
+#scrollup{color:#F10706;background:black; border:1px solid #F10706;}
