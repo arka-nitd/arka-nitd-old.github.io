@@ -172,7 +172,7 @@ body.scale-effect .btn-holder .btn-play{transform:scale(28);-webkit-transform:sc
 #timeline-education{position:relative;}
 #timeline-education:before{content:'';position:absolute;top:0;bottom:23px;left:50%;height:99.5%;width:4px;opacity:0.3;background:#06A763;}
 #timeline-experience{position:relative;}
-#timeline-experience::before{content:'';position:absolute;top:0;bottom:23px;left:50%;height:99.5%;width:4px;opacity:0.3;background:#06A763;}
+#timeline-experience::before{content:'';position:absolute;top:0;bottom:20px;left:50%;height:99.5%;width:4px;opacity:0.3;background:#06A763;}
 .timeline-block{position:relative;}
 .timeline-block::after{clear:both;content:"";display:table;}
 .timeline-block:first-child{margin-top:0;}

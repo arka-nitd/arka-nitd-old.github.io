@@ -27,7 +27,7 @@ html, body {background-color: #1A1A1A; color:#FFFFFF; text-shadow:2px 2px 4px rg
 #about .about-btn .btn:hover{background:#944622;}
 
 #timeline-education:before{background:#F4B46D; opacity: 0.7;}
-#timeline-experience:before{background:#F4B46D; opacity: 0.7;}
+#timeline-experience:before{background:#F4B46D; opacity: 0.7; height: 80%;}
 
 .timeline-block .timeline-dot{background:#F4B46D; color: #4B0802;}
 .timeline-block .timeline-dot .medium{color:#4B0802; line-height: 50px;}
